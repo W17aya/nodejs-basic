@@ -1,4 +1,10 @@
-const firstName = process.argv[2];
-const lastName = process.argv[3];
+const coffee = require('./coffee');
  
-console.log(`Hello ${firstName} ${lastName}`);
+console.log(coffee);
+ 
+/**
+ * node app.js
+ *
+ * output:
+ * { name: 'Tubruk', price: 15000 }
+ */
